@@ -1,3 +1,96 @@
+/* ------------------------------------- */
+/*   Global
+/* ------------------------------------- */
+
+* {
+	box-sizing: border-box;
+}
+
+html,
 body {
+	height:100%;
+}
+
+body {
+	align-items: center;
 	background-color: grey;
+	display: flex;
+	font-size: 18px;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+/* ------------------------------------- */
+/*   Buttons
+/* ------------------------------------- */
+
+.btn {
+  background: #a4d7d3;
+  border-radius: 4px;
+  padding: 12px 0;
+  transition: background 0.25s linear
+}
+
+.btn:hover {
+  background: #c7e7e4;
+}
+
+/* ------------------------------------- */
+/*   Forms
+/* ------------------------------------- */
+
+form {
+  text-align: left;
+}
+
+input {
+  border: 0;
+  border-radius: 4px;
+  display: block;
+  /*font-family: 'Milonga', cursive;*/
+  font-size: 16px;
+  padding: 8px;
+  width: 100%;
+}
+
+input[type='submit'] {
+  display: block;
+  margin: 12px auto 0 auto;
+  width: 50%;
+}
+
+label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+fieldset {
+  border: 0;
+  padding: 5px 0;
+}
+
+
+/* ------------------------------------- */
+/*	Landing
+/* ------------------------------------- */
+
+.signin {
+	max-width: 380px;
+	text-align: center;
+}
+
+.landing-title {
+  line-height: 1;
+  margin: 6px 0 0 0;
+}
+
+.landing-slogan {
+	margin-top: 4px;
+  margin-bottom: 9px;
 }
